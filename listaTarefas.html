@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <meta name="description" content="Site desenvolvido por Gabriela Ramires para portifólio profissional.">
+    <meta name="keyword content=" Gabriela Ramires, Portifólio profissional, portifólio, portifólio desenvolvedor de
+        software,portifólio programador, lista de tarefas, projeto de lista de tarefas,html, javascript, css>
+    <meta name="author" content="Gabriela Ramires">
+
+    <link rel="stylesheet" href="listaTarefas.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+
+    <style>
+        *{
+            box-sizing:border-box;
+            margin:0;
+        }
+        body{
+            height: 100vh;
+            background: linear-gradient(#121212, #212b46);
+            
+        }
+      
+    </style>
+
+</head>
+
+<body>
+  <div class="containerTotal">
+
+    <h1 style="text-align:center">Lista de tarefas</h1>
+
+
+    <div class="container">
+        <div class="campo">
+
+            <div class="entrada">
+                <input class="entrada" id="campoentrada"  type="text" placeholder="Digite uma tarefa">
+            </div>
+
+
+            <div class="Adicionar">
+                <button  id="add_btn" onclick=adicionar() class="botao">Adicionar</button>
+            </div>
+        </div>
+
+<main id="AreaItens">
+
+    </main> 
+               
+        
+    </div>
+
+     
+    <footer class="footer">Desenvolvido por: Gabriela Ramires | Para mais aplicações: <a href="https://portifoliogabriela.herokuapp.com/">www.portifoliogabriela.herokuapp.com</footer>
+</div>
+    <script src="listaTarefas.js"></script>
+</body>
+
+</html>
